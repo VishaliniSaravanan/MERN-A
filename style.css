@@ -1,0 +1,82 @@
+/* Universal box-model reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://www.pxwall.com/wp-content/uploads/2018/06/Wallpaper%20Earth,%20space,%20planet,%20star,%205k,%20Space%209873815322.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 50, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fbc02d; /* Star-like golden color */
+}
+
+/* Quiz section */
+.quiz-section {
+    background-color: rgba(0, 0, 50, 0.6);
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 600px;
+    border: 2px solid #fbc02d;
+    border-radius: 15px;
+}
+
+.quiz-section h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.quiz-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #1976d2;
+    color: white;
+    border: 2px solid #fbc02d;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fbc02d;
+    color: #000;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 50, 0.8);
+    border-top: 3px solid #fbc02d;
+}
+
+footer p {
+    font-size: 1em;
+}
