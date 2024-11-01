@@ -1,0 +1,14 @@
+.bg{
+    background-image: url("https://ik.imagekit.io/npursfgai/Tourism%20Projects/sea-ocean");
+    height: 600px;
+    width:400px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.bg1{
+    background-image: url("https://ik.imagekit.io/lbxf4ull5/pngtree-scenic-lake-and-mountain-view-stunning-nature-wallpaper-mobile-image_16058268.jpg?updatedAt=1730484753494");
+    height: 700px;
+    width:400px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
